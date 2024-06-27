@@ -4,7 +4,7 @@ describe("empty spec", () => {
   });
 
   it("opens the index page", () => {
-    cy.get("h1").contains("Great coffee with a conscience");
+    cy.get("h1").contains("The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle.");
   });
 
   it("navigates to the product page", () => {
